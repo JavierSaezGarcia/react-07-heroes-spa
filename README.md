@@ -40,6 +40,19 @@ module.exports = {
 ```
 import 'whatwg-fetch'; // <-- yarn add whatwg-fetch
 ```
+## Init yarn
+```
+yarn 
+```
+
+<hr> 
+## Run, build and test
+```
+$ yarn dev
+$ yarn build
+$ yarn test
+```
+
 ## Happy coding 😉
 
 
