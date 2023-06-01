@@ -45,8 +45,8 @@ import 'whatwg-fetch'; // <-- yarn add whatwg-fetch
 yarn 
 ```
 
-<hr> 
 ## Run, build and test
+
 ```
 $ yarn dev
 $ yarn build
