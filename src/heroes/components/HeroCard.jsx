@@ -8,10 +8,9 @@ export const HeroCard = ({
     first_appearance,
     characters,
 }) => {
-
-    const heroImageUrl = `/${id}.jpg`;
+    const heroImageUrl = `/images/${id}.jpg`;
+    console.log(heroImageUrl)
     const CharactersByHero = ({alter_ego, characters}) => {
-
         // if(alter_ego === characters) return (<></>);
         // return <p>{characters}</p>
         return (alter_ego === characters)
@@ -20,11 +19,7 @@ export const HeroCard = ({
     }
 
     return (
-        <>
-        
-       
-
-            <div className="col animate__animated animate__fadeIn">
+        <>  <div className="col animate__animated animate__fadeIn">
                 <div className="card">
                     <div className="row no-gutters">
                         <div className="col-md-5">
