@@ -9,7 +9,7 @@ export const HeroCard = ({
     characters,
 }) => {
 
-    const heroImageUrl = `/assets/${id}.jpg`;
+    const heroImageUrl = `${id}.jpg`;
     const CharactersByHero = ({alter_ego, characters}) => {
 
         // if(alter_ego === characters) return (<></>);
