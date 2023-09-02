@@ -7,7 +7,7 @@ export const MarvelPage = () => {
       <br />
       <div className="row">
         <div className="col-12">
-          <h1><img src="./images/logos/marvel-logo.png" className="img-fluid" style={{ width: '100px', paddingBottom: '5px' }} alt="marvel" /> Comics</h1>
+          <h1><img src="images/logos/marvel-logo.png" className="img-fluid" style={{ width: '100px', paddingBottom: '5px' }} alt="marvel" /> Comics</h1>
         </div>
       </div>
 
