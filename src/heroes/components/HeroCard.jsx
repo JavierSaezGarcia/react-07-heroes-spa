@@ -8,7 +8,7 @@ export const HeroCard = ({
     first_appearance,
     characters,
 }) => {
-    const heroImageUrl = `/images/${id}.jpg`;
+    const heroImageUrl = `./images/${id}.jpg`;
     console.log(heroImageUrl)
     const CharactersByHero = ({alter_ego, characters}) => {
         // if(alter_ego === characters) return (<></>);
